@@ -1,0 +1,11 @@
+.people-container {
+  padding: 0px 25px 0px 25px;
+}
+
+.person-container {
+  padding: 25px 0px 25px 0px;
+}
+
+.search-bar-container {
+  padding: 0px 25px 50px 25px;
+}
