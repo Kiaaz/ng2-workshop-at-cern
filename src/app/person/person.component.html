@@ -2,7 +2,7 @@
   <md-card-header>
     <md-card-title>{{data.name}} <span *ngIf="data.gender === 'n/a'">⚙</span> </md-card-title>
     <md-card-subtitle>
-      {{data.birth_year}}
+      <span>{{data.birth_year}}</span>
     </md-card-subtitle>
   </md-card-header>
   <md-card-content>
@@ -11,7 +11,7 @@
     </p>
   </md-card-content>
   <md-card-actions>
-    <button md-button>REMOVE</button>
+    <button md-button (click)="onClick.emit(data.name)">BUTTON</button>
     <button md-button [ngClass]="{coolColor: data.starships.length > 1}">STARSHIPS</button>
   </md-card-actions>
 </md-card>

@@ -6,6 +6,6 @@
 </md-input-container>
 <div class="people-container" *ngFor="let person of people$ | async | filterByName:searchExpression">
   <div class="person-container">
-    <app-person [data]="person"></app-person>
+    <app-person [data]="person" (onClick)="onPersonClick($event)"></app-person>
   </div>
 </div>

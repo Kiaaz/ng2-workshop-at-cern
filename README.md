@@ -42,6 +42,7 @@
 - Create search box that set filter expression for filter pipe
 - Use `ngClass` for Starships button.
 - Use `ngIf` for `'n/a'` gender.
-- TODO: Use `@Output` for `REMOVE` button.
+- Use `@Output`for `BUTTON` and show a snackbar `import { MdSnackBar } from '@angular/material';`
+
 
 
