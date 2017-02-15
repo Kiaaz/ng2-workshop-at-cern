@@ -1,5 +1,11 @@
 # ng2-workshop-at-cern
 
+## Requirements
+
+- Knowledge of html, css, javascript, typescript is nice to have.
+- `node>=6.9.0` with `npm` and latest [`angular-cli`](https://github.com/angular/angular-cli) should be installed.
+
+
 ## Workshop Schedule
 
 - Explain `angular` and `typescript` and `@angular/cli`
